@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    
+</head>
+<script src="app.js" type="module"></script>
+<style>
+    #app{
+        display: flex;
+        justify-content: center;
+        min-height: 50vh;
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        flex-flow: column;
+        border: 1px solid #999;
+    }
+    p{
+        font-size: 2.5rem;
+        align-items: center;
+    }
+</style>
+<body>
+    <div class="w-50 mx-auto mt-4" id="app">
+        <p>{{m1}}</p>
+        <button class="w-25 mx-auto">x</button>
+    </div>    
+</body>
+<!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+<script type="module">
+    // const {createApp} = Vue 
+    import{createApp} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+    createApp({
+        data(){
+            return{
+                m1: 'Bem vindo ao Vue Js!',
+                m2: 'Bora codar todos os dias'
+            }
+        }
+    }).mount('#app')
+</script>
+</html>

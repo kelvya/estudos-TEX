@@ -1,0 +1,1 @@
+-  vincular os caminhos no arquivo README.md linha 7 para frente
