@@ -2,7 +2,7 @@
 
 Extensão Vs code: [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-Arquivo de configugarção para identação de código ```sttings.json```:
+Arquivo de configugarção para identação de código ```settings.json```:
 ```
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",

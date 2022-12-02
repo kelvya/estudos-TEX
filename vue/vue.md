@@ -29,7 +29,7 @@
 
 [2.8.15 – Conceito sobre o Ciclo de Vida dos Hooks](/vue/marckdow/aula-2.8.15.md)
 
-[2.8.16 – Reutilizando Componentes]()
+[2.8.16 – Reutilizando Componentes](/vue/marckdow/aula-2.8.16.md)
 
 [2.8.17 – Trabalhando com Atributos Dinâmicos]()
 
