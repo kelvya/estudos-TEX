@@ -24,4 +24,4 @@ npm install -g @vue/cli
 
 ## Sintaxe:
 
-<img src="/Images/vue.1.png" alt="sintaxe do Vue.js">
+<img src="../Images/vue.1.png" alt="sintaxe do Vue.js">
