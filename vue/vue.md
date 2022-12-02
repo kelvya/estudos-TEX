@@ -51,7 +51,7 @@
 
 [2.8.26 – Trabalhando com Slots – parte 1](/vue/marckdow/aula-2.8.26.md)
 
-[2.8.27 – Trabalhando com Slots – parte 2]()
+[2.8.27 – Trabalhando com Slots – parte 2](/vue/marckdow/aula-2.8.27.md)
 
 [2.8.28 – Trabalhando com Slots – parte 3]()
 
