@@ -31,7 +31,7 @@
 
 [2.8.16 – Reutilizando Componentes](/vue/marckdow/aula-2.8.16.md)
 
-[2.8.17 – Trabalhando com Atributos Dinâmicos]()
+[2.8.17 – Trabalhando com Atributos Dinâmicos](/vue/marckdow/aula-2.8.17.md)
 
 [2.8.18 – Conceito sobre Estilos CSS em Componentes]()
 
