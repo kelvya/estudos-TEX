@@ -3,7 +3,9 @@
 
 Também dá pra recuperar o CDN do Vue pelo próprio [cdnjs](https://cdnjs.com/) (abriga várias bibliotecas).
 
-## CDNs usadas em aula:
+## CDN usada em aula:
+```
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 ```
 
 ## código da aula:
