@@ -55,7 +55,7 @@
 
 [2.8.28 – Trabalhando com Slots – parte 3](/vue/marckdow/aula-2.8.28.md)
 
-[2.8.29 – Modal BootStrap com Vue]()
+[2.8.29 – Modal BootStrap com Vue](/vue/marckdow/aula-2.8.29.md)
 
 [2.8.30 – Template Refs]()
 
