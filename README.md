@@ -29,6 +29,6 @@ Repositório criado para organizar anotações das aulas da T.EX e ajudar os col
 
 [2.7 – JQuery](/jquery)
 
-[2.8 – Vue](/vue)
+[2.8 – Vue](https://github.com/kelvya/estudos-TEX/blob/main/vue/vue.md)
 
 
