@@ -59,7 +59,7 @@
 
 [2.8.30 – Template Refs](/vue/marckdow/aula-2.8.30.md)
 
-[2.8.31 – Composition API]()
+[2.8.31 – Composition API](/vue/marckdow/aula-2.8.31.md)
 
 [2.8.31 – Composition API]()
 
