@@ -39,7 +39,7 @@
 
 [2.8.20 -Consumindo uma Coleção com a Diretiva v-for](/vue/marckdow/aula-2.8.20.md)
 
-[2.8.21 – Manipulando Eventos de Formulário]()
+[2.8.21 – Manipulando Eventos de Formulário](/vue/marckdow/aula-2.8.21.md)
 
 [2.8.22 – Customizando as Características de um Componente]()
 
