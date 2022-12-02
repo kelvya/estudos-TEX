@@ -33,7 +33,7 @@
 
 [2.8.17 – Trabalhando com Atributos Dinâmicos](/vue/marckdow/aula-2.8.17.md)
 
-[2.8.18 – Conceito sobre Estilos CSS em Componentes]()
+[2.8.18 – Conceito sobre Estilos CSS em Componentes](/vue/marckdow/aula-2.8.18.md)
 
 [2.8.19 – Organizando Componentes]()
 
