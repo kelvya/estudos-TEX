@@ -35,7 +35,7 @@
 
 [2.8.18 – Conceito sobre Estilos CSS em Componentes](/vue/marckdow/aula-2.8.18.md)
 
-[2.8.19 – Organizando Componentes]()
+[2.8.19 – Organizando Componentes](/vue/marckdow/aula-2.8.19.md)
 
 [2.8.20 -Consumindo uma Coleção com a Diretiva v-for]()
 
