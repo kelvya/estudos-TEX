@@ -22,17 +22,22 @@
         border: 1px solid #999;
     }
     p{
-        font-size: 2.5rem;
-        align-self: center;
+        font-size: 1.5rem;
+        align-self: flex-start;
     }
     button{
         font-size: 2rem;
     }
 </style>
 <body>
-    <div class="w-50 mx-auto mt-4" id="app">
-        <p>{{m2}}</p>
-        <button @click="count++" class="w-25 mx-auto">{{count}}</button>
+    <div class="w-50 mx-auto mt-4" id="app2" class="app">
+        <p>{{m1}}</p>
+        <form id="formUser">
+            <input type="text" v-model="inputUser_nome" placeholder="Digite seu nome">
+            <input type="submit" v-on:click="inputUser_click" value="Enviar">
+            <p class="px-5 mt-5">Meu nome é: {{nome}}</p>
+            <p class="px-5 mt-5">Binding: <strong>{{inputUser_nome}}</strong></p>
+        </form>
     </div>    
 </body>
 

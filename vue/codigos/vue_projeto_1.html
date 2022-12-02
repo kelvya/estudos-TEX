@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue_projeto_1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="#" type="text/css">
+    <script src="projeto_1.js" type="module"></script>
+</head>
+<style>
+    .hide{
+        display: none;
+    }
+</style>
+<body class="m-3">
+    <div class="row container">
+        <div class="col">
+            <h2 class="titulo" id="titulo01">Sistema de comentários em Vue CDN</h2>
+        </div>
+
+    </div>
+    
+        <div id="app">
+            <div id="box03" class="boxPadrao bordapadrao sombraPadrao">
+                <p class="labelpadrao textCenter textBold">Deixe aqui o seu comentário</p>
+                <form>
+                    <input class="inputPadrao p-1 mtb-1 border textBold" type="text" placeholder="Nome" id="inputNome" v-model="inputNome" name="nome">
+                    <textarea class="form-control inputPadrao p-1 mtb-1 border textBold" name="mensagem" 
+                    id="txtMensagem" v-model="txtMensagem" rows="5" placeholder="Comentários"></textarea>
+                    <button type="button" @click="adComentario" class="btn btnPadrao" id="btnComentario">Confirmar</button>
+                </form>
+                <div class="my-5">
+                    <div class="border p-3 my-3" v-for="(coment, n) in getComentarios">
+                        <span class="autor">Nome: {{ coment.nome }}</span>
+                        <p class="my-4" id="mensagem">{{ coment.mensagem }}</p>
+                        <a href="#" @click.prevent="excluir(n)">Excluir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+</body>
+</html>

@@ -30,16 +30,23 @@
         <p>{{m2}}</p>
     </div>    
 </body>
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script>
-    const {createApp} = Vue 
+<!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+<script type="module">
+    // const {createApp} = Vue 
+    import{createApp} from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
     createApp({
         data(){
             return{
                 m1: 'Bem vindo ao Vue Js!',
-                m2: 'Bora codar!'
+                m2: 'Bora codar todos os dias'
             }
         }
     }).mount('#app')
 </script>
+<!-- Opção importmap -->
+<!-- <script type="importmap">
+    imports: {
+        'vue': 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+    }
+</script> -->
 </html>
