@@ -43,7 +43,7 @@
 
 [2.8.22 – Customizando as Características de um Componente](/vue/marckdow/aula-2.8.22.md)
 
-[2.8.23 – Utilizando o Recurso $emit]()
+[2.8.23 – Utilizando o Recurso $emit](/vue/marckdow/aula-2.8.23.md)
 
 [2.8.24 – Funções de Renderização e JSX – parte 1]()
 
