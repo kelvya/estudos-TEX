@@ -45,7 +45,7 @@
 
 [2.8.23 – Utilizando o Recurso $emit](/vue/marckdow/aula-2.8.23.md)
 
-[2.8.24 – Funções de Renderização e JSX – parte 1]()
+[2.8.24 – Funções de Renderização e JSX – parte 1](/vue/marckdow/aula-2.8.24.md)
 
 [2.8.25 – Funções de Renderização e JSX – parte 2]()
 
