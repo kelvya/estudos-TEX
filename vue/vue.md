@@ -57,7 +57,7 @@
 
 [2.8.29 – Modal BootStrap com Vue](/vue/marckdow/aula-2.8.29.md)
 
-[2.8.30 – Template Refs]()
+[2.8.30 – Template Refs](/vue/marckdow/aula-2.8.30.md)
 
 [2.8.31 – Composition API]()
 
