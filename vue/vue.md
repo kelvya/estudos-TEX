@@ -37,7 +37,7 @@
 
 [2.8.19 – Organizando Componentes](/vue/marckdow/aula-2.8.19.md)
 
-[2.8.20 -Consumindo uma Coleção com a Diretiva v-for]()
+[2.8.20 -Consumindo uma Coleção com a Diretiva v-for](/vue/marckdow/aula-2.8.20.md)
 
 [2.8.21 – Manipulando Eventos de Formulário]()
 
