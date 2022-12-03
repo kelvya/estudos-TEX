@@ -1,4 +1,4 @@
-## Módulo 1 - Fundamento 
+# Módulo 2 - Front-end
 [2.8.1 – Vue Fundamentos](/vue/marckdow/aula-2.8.1.md)
 
 [2.8.2 – Iniciando Vue com CDN](/vue/marckdow/aula-2.8.2.md)
@@ -61,9 +61,7 @@
 
 [2.8.31 – Composition API](/vue/marckdow/aula-2.8.31.md)
 
-[2.8.31 – Composition API]()
-
-[2.8.32 – Trabalhando com View Router]()
+[2.8.32 – Trabalhando com View Router](/vue/marckdow/aula-2.8.32.md)
 
 [2.8.33 – Methods vs Computed]()
 
