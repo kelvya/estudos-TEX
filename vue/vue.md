@@ -63,7 +63,7 @@
 
 [2.8.32 – Trabalhando com View Router](/vue/marckdow/aula-2.8.32.md)
 
-[2.8.33 – Methods vs Computed]()
+[2.8.33 – Methods vs Computed](/vue/marckdow/aula-2.8.33.md)
 
 [2.8.34 – VueX – Conceitos]()
 
