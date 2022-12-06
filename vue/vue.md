@@ -65,7 +65,7 @@
 
 [2.8.33 – Methods vs Computed](/vue/marckdow/aula-2.8.33.md)
 
-[2.8.34 – VueX – Conceitos]()
+[2.8.34 – VueX – Conceitos](/vue/marckdow/aula-2.8.34.md)
 
 [2.8.35 – Criando uma aplicação com VueX]()
 
