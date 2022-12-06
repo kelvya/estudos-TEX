@@ -67,9 +67,9 @@
 
 [2.8.34 – VueX – Conceitos](/vue/marckdow/aula-2.8.34.md)
 
-[2.8.35 – Criando uma aplicação com VueX]()
+[2.8.35 – Criando uma aplicação com VueX](/vue/marckdow/aula-2.8.35.md)
 
-[2.8.36 – VueX – Getters]()
+[2.8.36 – VueX – Getters](/vue/marckdow/aula-2.8.36.md)
 
 [2.8.37 – Vuex – Mutations]()
 
