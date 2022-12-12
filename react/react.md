@@ -4,7 +4,7 @@ React
 
 [2.9.1 – React JS Fundamentos](/react/marckdow/aula-2.9.1.md)
 [2.9.2 – Conceito de Componentes](/react/marckdow/aula-2.9.2.md)
-[2.9.3 – Definindo Parâmetros em Componentes]()
+[2.9.3 – Definindo Parâmetros em Componentes](/react/marckdow/aula-2.9.3.md)
 [2.9.4 – Criando Parâmetros Globais]()
 [2.9.5 – Conhecendo o React JS 18]()
 [2.9.6 – Usando JSX]()
