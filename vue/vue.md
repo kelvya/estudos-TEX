@@ -71,8 +71,8 @@
 
 [2.8.36 – VueX – Getters](/vue/marckdow/aula-2.8.36.md)
 
-[2.8.37 – Vuex – Mutations]()
+[2.8.37 – Vuex – Mutations](/vue/marckdow/aula-2.8.37.md)
 
-[2.8.38 – VueX – Actions]()
+[2.8.38 – VueX – Actions](/vue/marckdow/aula-2.8.38.md)
 
 [2.8.39 – Vuex – Modules]()
