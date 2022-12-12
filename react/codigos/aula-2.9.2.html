@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.9.2 Conceito de Componentes</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+<script>
+    function componente1(){
+        return React.createElement('div', null, React.createElement(componente2))
+    }
+    function componente2(){
+        return React.createElement('p', null, React.createElement(componente3))
+    }
+    function componente3() {
+        return React.createElement('strong', null, 'Olá react!')
+    }
+    ReactDOM.render(React.createElement(componente1),document.querySelector('#root'))
+</script>
+</html>
