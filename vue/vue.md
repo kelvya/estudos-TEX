@@ -75,4 +75,4 @@
 
 [2.8.38 – VueX – Actions](/vue/marckdow/aula-2.8.38.md)
 
-[2.8.39 – Vuex – Modules]()
+[2.8.39 – Vuex – Modules](/vue/marckdow/aula-2.8.39.md)
