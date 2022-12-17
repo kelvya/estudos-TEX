@@ -4,7 +4,7 @@
 
 [3.1.2 – Encapsulamento](/POO/markdown/aula-3.1.2.md)
 
-[3.1.3 – Herança]()
+[3.1.3 – Herança](/POO/markdown/aula-3.1.3.md)
 
 [3.1.4 – Polimorfismo]()
 

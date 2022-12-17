@@ -25,7 +25,7 @@ Repositório criado para organizar as anotações e estudos das aulas da T.EX e 
 
 [2.5 – SASS](/sass)
 
-[2.6 – Javascript](/js)
+[2.6 – Javascript](/js/js.md)
 
 [2.7 – JQuery](https://github.com/kelvya/estudos-TEX/blob/main/jquery/jquery.md)
 
