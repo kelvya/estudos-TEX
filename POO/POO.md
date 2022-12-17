@@ -12,7 +12,7 @@
 
 [3.1.6 – Palavras-chave public, private e extends](/POO/markdown/aula-3.1.6.md)
 
-[3.1.7 – Aplicando polimorfismo em classes]()
+[3.1.7 – Aplicando polimorfismo em classes](/POO/markdown/aula-3.1.7.md)
 
 [3.1.8 – Palavra-chave static]()
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1.7 Aplicando polimorfismo em classes</title>
+</head>
+<body>
+    <h2>3.1.7 Aplicando polimorfismo em classes</h2>
+</body>
+<script>
+    class Carrinho{
+        desconto = 5
+        constructor(){
+            //
+        }
+        aplicaDesconto(desconto){
+            return this.desconto = !desconto ? this.desconto : desconto            
+        }
+    }
+    class Cupom extends Carrinho{
+        constructor(desconto){
+            super(desconto)
+        }
+        aplicaDesconto(desconto){
+            return this.desconto = this.desconto + desconto
+        }
+    }
+
+    let carrinho = new Carrinho()
+    console.log(carrinho)
+    carrinho.aplicaDesconto(10)
+    console.log(carrinho)
+    console.log(`O desconto padrão é de: ${carrinho.aplicaDesconto(5)}%`)
+
+    let cupom = new Cupom()
+    //console.log(cupom)
+    console.log(`O desconto do cupom é de: ${cupom.aplicaDesconto(8)}% - Valor acumulado com o desconto padrão`)
+</script>
+</html>
