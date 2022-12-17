@@ -6,7 +6,7 @@ Material do curso [clique aqui](https://texperts.com.br/wp-content/uploads/2022/
 
 [2.6.2 – Imprimindo resultados no Documento HTML](/js/markdown/aula-2.6.2.md)
 
-[]()
+[2.6.3 – Aplicando eventos em um elemento Button](/js/markdown/aula-2.6.3.md)
 
 []()
 
