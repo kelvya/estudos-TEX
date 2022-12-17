@@ -23,17 +23,17 @@ NaN - Impossibilidade de fazer cálculo
 
 - var
  
-  -- Seu bloco é o contexto atual em execução
-  -- Globalmente ou no escopo inteiro de uma função
+  - Seu bloco é o contexto atual em execução
+  - Globalmente ou no escopo inteiro de uma função
 
 - let
-  -- limitada ao escopo do bloco, expressão ou instrução em que é utilizada
-  -- não pode ser redeclarada
+  - limitada ao escopo do bloco, expressão ou instrução em que é utilizada
+  - não pode ser redeclarada
 
 - const
-  -- Escopo de bloco semelhante a let
-  -- Não permite que seu conteúdo seja substituído em variáveis simples
-  -- Em arrays e objetos os índices e chaves podem ser alterados
+  - Escopo de bloco semelhante a let
+  - Não permite que seu conteúdo seja substituído em variáveis simples
+  - Em arrays e objetos os índices e chaves podem ser alterados
 
 ## Declaração de variáveis
 Quando uma variável é declarada ela é içada (movida para o topo do código)
