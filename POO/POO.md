@@ -8,9 +8,9 @@
 
 [3.1.4 – Polimorfismo](/POO/markdown/aula-3.1.4.md)
 
-[3.1.5 – Programando Classes em Javascript]()
+[3.1.5 – Programando Classes em Javascript](/POO/markdown/aula-3.1.5.md)
 
-[3.1.6 – Palavras-chave public, private e extends]()
+[3.1.6 – Palavras-chave public, private e extends](/POO/markdown/aula-3.1.6.md)
 
 [3.1.7 – Aplicando polimorfismo em classes]()
 

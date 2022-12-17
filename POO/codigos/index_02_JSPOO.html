@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1.6 Palavras-chave public, private e extends</title>
+</head>
+<body>
+    <h2>utilizando a palavra-chave <code>class</code></h2>
+</body>
+<script>
+    class Tarefa {
+        tipo = 'Profissional'
+        #conclusao = false
+        prazo
+        constructor(prazo){
+            this.prazo = prazo
+        }
+        getConclusao(){
+            return this.#conclusao
+        }
+        setConclusao(conclusao){
+            this.#conclusao = conclusao
+        }
+    }
+    let tarefa = new Tarefa(10)
+    tarefa.tipo = 'Pessoal'
+    console.log(tarefa)
+    tarefa.setConclusao(true)
+    console.log('Tarefa concluída', tarefa.getConclusao())
+    console.log(tarefa)
+
+
+    class Agenda{
+        titulo = 'Cruzeiro'
+        data = new Date().toLocaleDateString()
+        constructor(){
+            //
+        }
+        lembrete() {
+            console.log('Você tem um novo compromisso!')
+        }
+    }
+
+
+    class Compromisso extends Agenda{
+        tipo = 'Aula'
+        constructor(titulo){
+            super(titulo)
+            //this.titulo = titulo
+        }
+    }
+
+    let compromisso = new Compromisso('JavaScript')
+    console.log(compromisso)
+    console.log(compromisso.lembrete())
+</script>
+</html>
