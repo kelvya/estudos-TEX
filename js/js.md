@@ -4,7 +4,7 @@ Material do curso [clique aqui](https://texperts.com.br/wp-content/uploads/2022/
 
 [2.6.1 – Javascript Fundamentos](/js/markdown/aula-2.6.1.md)
 
-[]()
+[2.6.2 – Imprimindo resultados no Documento HTML](/js/markdown/aula-2.6.2.md)
 
 []()
 
