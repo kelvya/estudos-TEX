@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1.8 Palavra-chave static</title>
+</head>
+<body>
+    <h2>3.1.8 Palavra-chave static</h2>
+</body>
+<script>
+    function* f1(){
+        for (const n of ['a', 'b', 'c', 'd', 'e']){
+            yield n
+        }
+    }
+    console.log([...f1()][4])
+    
+
+    // MÉTODOS GERADORES (GENERATORS)
+    class Auditorio{
+        lugares
+        constructor(...lugares){
+            this.lugares = lugares
+        }
+        *getLugares(){
+            for (const lugar of this.lugares){
+                yield lugar
+            }
+        }
+    }
+
+    let auditorio = new Auditorio(7, 12, 34, 59, 82, 95)
+    console.log(auditorio)
+    console.log([...auditorio.getLugares()])
+
+    // ATRIBUTOS E MÉTODOS ESTÁTICOS
+    class Plateia{
+        caixa = false
+        static capacidade = 200
+        constructor(caixa){
+            this.caixa = caixa
+            caixa ? console.log('Ingressos a venda') : console.log('Bilheteria fechada')
+        }
+        static infoVendas(ingressos){
+            return(ingressos/this.capacidade)*100
+        }
+    }
+    let plateia = new Plateia()
+    //console.log(plateia.capacidade)
+    //console.log(plateia.caixa)
+    console.log(`A capacidade da platétia é de ${Plateia.capacidade} lugares`)
+    console.log(`${Plateia.infoVendas(150)}% de ingressos vendidos!`)
+    
+</script>
+</html>

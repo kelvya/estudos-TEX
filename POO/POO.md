@@ -14,7 +14,7 @@
 
 [3.1.7 – Aplicando polimorfismo em classes](/POO/markdown/aula-3.1.7.md)
 
-[3.1.8 – Palavra-chave static]()
+[3.1.8 – Palavra-chave static](/POO/markdown/aula-3.1.8.md)
 
 [3.1.9 – Protótipos em Javascript vs Classes]()
 
