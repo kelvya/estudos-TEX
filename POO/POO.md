@@ -6,7 +6,7 @@
 
 [3.1.3 – Herança](/POO/markdown/aula-3.1.3.md)
 
-[3.1.4 – Polimorfismo]()
+[3.1.4 – Polimorfismo](/POO/markdown/aula-3.1.4.md)
 
 [3.1.5 – Programando Classes em Javascript]()
 
