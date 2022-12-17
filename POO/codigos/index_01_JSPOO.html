@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1.5 Programando Classes em Javascript</title>
+</head>
+<body>
+    <h2>utilizando a palavra-chave <code>class</code></h2>
+</body>
+<script>
+    soma(10,34)
+    function soma(n1, n2){
+        return n1 + n2
+    }
+
+    //console.log(Calculo)//Devolve erro de referência porque o class não é içado como as functios são.
+
+    //DECLARAÇÃO DE CLASSE
+    class Calculo{
+        constructor(n1, n2){
+            this.n1 = n1
+            this.n2 = n2
+        }
+    }
+    let calculo = new Calculo(5, 9)
+    console.log(`A soma é : ${calculo.n1 + calculo.n2}`)
+
+    //EXPRESSÃO DE CLASSE
+    let Animal = class {
+        constructor(nome){
+            console.log(`O nome do meu pet é ${nome}`)
+        }
+    }
+    console.log(`A classe se chama: ${Animal.name}`)
+    new Animal('Totó')
+</script>
+</html>

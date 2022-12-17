@@ -50,13 +50,4 @@ class Filho extends Pai{
   
 ## Polimorfismo
 - Mecanismo que usa da herança nas classes promovendo uma reescrita (overriding) de métodos das super classes nas suas subclasses.
-```
-```
-
-```
-```
-
-```
-```
-## Arquivos usados em aula
 
