@@ -34,6 +34,7 @@ Repositório criado para organizar as anotações e estudos das aulas da T.EX e 
 [2.9 – React](https://github.com/kelvya/estudos-TEX/blob/main/react/react.md)
 
 ## MÓDULO 3 - BACK-END
-[POO (Programação Orientada a Objetos)](/POO/POO.md)
+[POO (Programação Orientada a Objetos)](https://github.com/kelvya/estudos-TEX/blob/main/POO/POO.md)
+
 
 
