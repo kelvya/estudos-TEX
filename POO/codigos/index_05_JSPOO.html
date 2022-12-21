@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1.9 Protótipos em Javascript vs Classes</title>
+</head>
+<body>
+    <h2>3.1.9 Protótipos em Javascript vs Classes</h2>
+</body>
+<script>
+    const caneta = {
+        cor: 'Azul',
+        escrever(){
+            console.log('Ponteiro acionado')
+        },
+        assinar(nome){
+            console.log(`Atenciosamente, ${nome}`)
+        }
+    }
+function Pessoa(nome){
+    return this.nome = nome
+}
+
+//CONSTRUTORES
+    let canetaTinteiro = Object.create(caneta)
+    canetaTinteiro.escrever()
+
+    let canetaMoBlank = Object.assign(Pessoa.prototype,caneta)
+    canetaMoBlank.assinar('Kelvya Thais')
+
+    let cliente = new Pessoa('Sheldon Cooper')
+    console.log(`Olá sou o cliente ${JSON.stringify(cliente.nome)}`)
+</script>
+</html>
