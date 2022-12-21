@@ -1,5 +1,4 @@
 # Módulo 2 - Front-end
-https://github.com/kelvya/estudos-TEX/blob/main/vue/markdown/aula-2.8.1.md
 [2.8.1 – Vue Fundamentos](https://github.com/kelvya/estudos-TEX/blob/main/vue/markdown/aula-2.8.1.md)
 
 [2.8.2 – Iniciando Vue com CDN](https://github.com/kelvya/estudos-TEX/blob/main/vue/markdown/aula-2.8.2.md)
