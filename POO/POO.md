@@ -18,7 +18,7 @@
 
 [3.1.9 – Protótipos em Javascript vs Classes](/POO/markdown/aula-3.1.9.md)
 
-[3.1.10 – Utilizando classes e módulos]()
+[3.1.10 – Utilizando classes e módulos](/POO/markdown/aula-3.1.10.md)
 
 [3.1.11 – Imprimindo resultados – parte 1]()
 
