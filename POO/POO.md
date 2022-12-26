@@ -20,7 +20,7 @@
 
 [3.1.10 – Utilizando classes e módulos](/POO/markdown/aula-3.1.10.md)
 
-[3.1.11 – Imprimindo resultados – parte 1]()
+[3.1.11 – Imprimindo resultados – parte 1](/POO/markdown/aula-3.1.11.md)
 
 [3.1.12 – Imprimindo resultados – parte 2]()
 
