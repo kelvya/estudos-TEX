@@ -22,7 +22,7 @@
 
 [3.1.11 – Imprimindo resultados – parte 1](/POO/markdown/aula-3.1.11.md)
 
-[3.1.12 – Imprimindo resultados – parte 2]()
+[3.1.12 – Imprimindo resultados – parte 2](/POO/markdown/aula-3.1.12.md)
 
 [3.1.13 – Criando métodos de validação]()
 

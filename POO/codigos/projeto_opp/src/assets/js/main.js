@@ -4,7 +4,7 @@ console.log('Js go!')
 import { Produto } from './Produto.js'
 import { ListaProduto } from './ListaProduto.js'
 let produto = new Produto()
-let listaProduto = new ListaProduto()
+let listaProduto = new ListaProduto(document.querySelector('form'))
 
 
 
@@ -19,7 +19,8 @@ document.querySelector('form').addEventListener('submit', (e)=>{
 
         listaProduto.criarListagem(
             document.querySelector('#produto').value,
-            document.querySelector('#valor_produto').value
+            document.querySelector('#valor_produto').value,
+            document.querySelector('.boxListagem__info')
         )
 })
 
