@@ -5,6 +5,7 @@ export class Produto{
     id
     nome
     valor
+    validacao
     constructor(id){
         !id ? this.id = 0 : this.id = id
     }
@@ -12,7 +13,8 @@ export class Produto{
         this.nome = inputNome
         this.valor = inputValor
         this.lerProduto()
-        this.id++
+        this.validacao = this.validarCampos(inputNome, inputValor)
+        this.validacao ? this.id++ : null
         return this.lerProduto()
     }
     lerProduto(){
@@ -21,5 +23,10 @@ export class Produto{
         produto.nome = this.nome
         produto.valor = this.valor
         return produto
+    }
+    validarCampos(inputNome, inputValor){
+        return(
+            inputNome.length < 1 || inputValor.length < 1 ? false : true
+        )
     }
 }

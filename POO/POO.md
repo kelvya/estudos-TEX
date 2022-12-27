@@ -24,7 +24,7 @@
 
 [3.1.12 – Imprimindo resultados – parte 2](/POO/markdown/aula-3.1.12.md)
 
-[3.1.13 – Criando métodos de validação]()
+[3.1.13 – Criando métodos de validação](/POO/markdown/aula-3.1.13.md)
 
 [3.1.14 – Recuperando valores de inputs]()
 

@@ -9,8 +9,16 @@ export class ListaProduto extends Produto{
         super()
         this.form = form
     }
-    criarListagem(inputNumber, inputValor, box){
+    criarListagem(inputNumber, inputValor, box, alerta){
+        alerta.classList.add('d-none')
         this.listagem.push(this.salvar(inputNumber, inputValor))
+
+        this.validacao ?
+        this.ListarItens(box) : 
+        alerta.classList.remove('d-none')
+        alerta.querySelector('p').innerText = 'Preencha todos os campos!'
+    }
+    ListarItens(box){    
         // console.log(this.listagem)
         let divItem
         this.listagem.forEach((n, i)=>{
