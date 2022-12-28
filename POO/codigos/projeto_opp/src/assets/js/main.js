@@ -2,10 +2,10 @@ console.log('Js go!')
 // import { Produto } from './produto_v1'
 // import { Produto } from './produto_v2'
 // import { Produto } from './Produto.js'
-import { ListaProduto } from './ListaProduto.js'
+// import { ListaProduto } from './ListaProduto.js'
 import { StorageProduto } from './StorageProduto.js'
 // let produto = new Produto()
-let listaProduto = new ListaProduto(document.querySelector('form'))
+// let listaProduto = new ListaProduto(document.querySelector('form'))
 let storageProduto = new StorageProduto(document.querySelector('form'))
 
 
@@ -23,14 +23,14 @@ storageProduto.getStorage(document.querySelector('.boxListagem__info'))
 document.querySelector('form').addEventListener('submit', (e)=>{
     e.preventDefault()
 
-        console.log(
+        
             storageProduto.setStorage(
                 document.querySelector('#produto').value,
                 document.querySelector('#valor_produto').value,
                 document.querySelector('.boxListagem__info'),
                 'boxListagem_item'
             )
-        )
+        
 
 
         // listaProduto.criarListagem(

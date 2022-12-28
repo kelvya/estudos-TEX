@@ -3,6 +3,7 @@
 import {ListaProduto} from "./ListaProduto.js"
 
 export class StorageProduto extends ListaProduto{
+    boxListagem = document.getElementsByClassName('boxlistagem_item')
     storage = []
     form
     constructor(form){
@@ -13,14 +14,13 @@ export class StorageProduto extends ListaProduto{
         if(localStorage.getItem('cadastro')){
             this.storage = JSON.parse(localStorage.getItem('cadastro'))
             this.storage.push(this.salvar(inputNome, inputValor))
-            localStorage.setItem('cadastro', JSON.stringify(this.storage))
+            // localStorage.setItem('cadastro', JSON.stringify(this.storage))
         }else{
             this.storage.push(this.salvar(inputNome, inputValor))
             
         }
         localStorage.setItem('cadastro', JSON.stringify(this.storage))
         
-        console.log(this.storage)
         // Limpar a lista anterior
         const divBox = document.getElementsByClassName(div)
         while(divBox.length >0){
@@ -31,12 +31,6 @@ export class StorageProduto extends ListaProduto{
     getStorage(box){
         if(localStorage.getItem('cadastro')){
             this.ListarItens(JSON.parse(localStorage.getItem('cadastro')), box)
-            let cadastro = JSON.parse(localStorage.getItem('cadastro'))
-            
-            for(const cad in cadastro){
-                this.boxListagem[cad].querySelector('.fa-trash-can').setAttribute('data-id', cadastro[cad]['id'] )
-                
-            }
         }
     }
 }

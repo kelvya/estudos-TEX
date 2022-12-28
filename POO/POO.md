@@ -36,7 +36,7 @@
 
 [3.1.18 – Removendo dados persistentes em localStorage](/POO/markdown/aula-3.1.18.md)
 
-[3.1.19 – Criando métodos de edição de Produtos]()
+[3.1.19 – Criando métodos de edição de Produtos](/POO/markdown/aula-3.1.19.md)
 
 [3.1.20 – Atualizando dados persistentes em localStorage]()
 
