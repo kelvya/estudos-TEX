@@ -47,7 +47,7 @@ export class ListaProduto extends Produto{
                 btnIconEdit.setAttribute('class', 'cursor fa-solid fa-pen-to-square')
                 //Remover produto///
                 btnIconRemove.setAttribute('class', 'cursor fa-solid fa-trash-can mx-3')
-                btnIconRemove.onclick=(e)=>{this.admProduto.removerProduto(e.target)}
+                btnIconRemove.onclick=(e)=>{this.admProduto.removerProduto(e.target, e.target.getAttribute('data-id'))}
                 
                 divEdit.append(btnIconEdit, btnIconRemove)
                 divItem.appendChild(divEdit)
@@ -60,5 +60,11 @@ export class ListaProduto extends Produto{
         for(let i = 0; i< inputs.length;i++){
             inputs[i].value = ''
         }
+    }
+    editarProduto(){
+        console.log(this)
+    }
+    removerProduto(div, n){
+        document.getElementsByClassName(div)[n].remove
     }
 }

@@ -34,7 +34,7 @@
 
 [3.1.17 – Removendo itens da interface de forma assíncrona](/POO/markdown/aula-3.1.17.md)
 
-[3.1.18 – Removendo dados persistentes em localStorage]()
+[3.1.18 – Removendo dados persistentes em localStorage](/POO/markdown/aula-3.1.18.md)
 
 [3.1.19 – Criando métodos de edição de Produtos]()
 

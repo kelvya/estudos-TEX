@@ -23,13 +23,20 @@ export class StorageProduto extends ListaProduto{
         console.log(this.storage)
         // Limpar a lista anterior
         const divBox = document.getElementsByClassName(div)
-        while(divBox.length <0){
+        while(divBox.length >0){
             divBox[0].remove()
         }
         this.ListarItens(this.storage, box)
     }
     getStorage(box){
-        localStorage.getItem('cadastro') ?
-        this.ListarItens(JSON.parse(localStorage.getItem('cadastro')), box) : null
+        if(localStorage.getItem('cadastro')){
+            this.ListarItens(JSON.parse(localStorage.getItem('cadastro')), box)
+            let cadastro = JSON.parse(localStorage.getItem('cadastro'))
+            
+            for(const cad in cadastro){
+                this.boxListagem[cad].querySelector('.fa-trash-can').setAttribute('data-id', cadastro[cad]['id'] )
+                
+            }
+        }
     }
 }
