@@ -14,6 +14,8 @@ class Animais{
     }
 }
 ```
+
+```
 class Aquatico extends Animais{
     private concha: boolean
     private vadadeira: boolean
@@ -26,6 +28,7 @@ class Aquatico extends Animais{
     }
 }
 ```
+
 ```
 class Terrestre extends Animais{
     private alimento: stringt
@@ -37,5 +40,4 @@ class Terrestre extends Animais{
         return this.alimento;
     }
 }
-```
 ```

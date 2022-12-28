@@ -1,5 +1,4 @@
-# 3.1.12 – Imprimindo resultados – parte 2
-
+# 3.1.14 – Recuperando valores de inputs
 
 
 ## Arquivo usado em aula:
@@ -8,4 +7,4 @@
 
 [main.js](/POO/codigos/projeto_opp/src/assets/js/Main.js)
 
-[ListaProduto.js](/POO/codigos/projeto_opp/src/assets/js/ListaProduto.js)
+[produto.js](/POO/codigos/projeto_opp/src/assets/js/Produto.js)

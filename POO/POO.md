@@ -26,7 +26,7 @@
 
 [3.1.13 – Criando métodos de validação](/POO/markdown/aula-3.1.13.md)
 
-[3.1.14 – Recuperando valores de inputs]()
+[3.1.14 – Recuperando valores de inputs](/POO/markdown/aula-3.1.14.md)
 
 [3.1.15 – Inserindo dados em localStorage]()
 
