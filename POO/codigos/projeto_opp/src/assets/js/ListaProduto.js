@@ -14,31 +14,32 @@ export class ListaProduto extends Produto{
         this.listagem.push(this.salvar(inputNumber, inputValor))
 
         this.validacao ?
-        this.ListarItens(box) : 
+        this.ListarItens(this.listagem, box) : 
         alerta.classList.remove('d-none')
         alerta.querySelector('p').innerText = 'Preencha todos os campos!'
     }
-    ListarItens(box){    
+    ListarItens(lista, box){    
         // console.log(this.listagem)
         let divItem
-        this.listagem.forEach((n, i)=>{
+        lista.forEach((n, i)=>{
             // console.log(n,i)
         divItem = document.createElement('div')
         divItem.setAttribute('class', 'boxListagem_item d-flex w-100')
-                for(const item in this.listagem[i]){
-                    // console.log(this.listagem[i][item])
+                for(const item in lista[i]){
+                    // console.log(lista[i][item])
                     let div = document.createElement('div')
                     div.setAttribute('class', 'w-25 border px-3 py-2')
                     div.innerText = item == 'valor' ? 
-                    `R$ ${this.listagem[i][item]},00` : this.listagem[i][item]
+                    `R$ ${lista[i][item]},00` : lista[i][item]
                     divItem.appendChild(div)
+                    box.appendChild(divItem)
                 }
+                // Ícones de edição e de lixeira
+                let divEdit = document.createElement('div')
+                divEdit.setAttribute('class', 'w-25 border px-3 py-2')
+                divEdit.innerHTML = `</i><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash-can mx-3">`
+                divItem.appendChild(divEdit)
         })
-        // Ícones de edição e de lixeira
-        let divEdit = document.createElement('div')
-        divEdit.setAttribute('class', 'w-25 border px-3 py-2')
-        divEdit.innerHTML = `</i><i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash-can mx-3">`
-        divItem.appendChild(divEdit)
         box.appendChild(divItem)
         this.resetListagem()
     }

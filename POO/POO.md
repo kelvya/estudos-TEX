@@ -28,7 +28,7 @@
 
 [3.1.14 – Recuperando valores de inputs](/POO/markdown/aula-3.1.14.md)
 
-[3.1.15 – Inserindo dados em localStorage]()
+[3.1.15 – Inserindo dados em localStorage](/POO/markdown/aula-3.1.15.md)
 
 [3.1.16 – Cadastrando produtos localmente]()
 

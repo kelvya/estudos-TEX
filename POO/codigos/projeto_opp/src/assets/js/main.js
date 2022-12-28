@@ -3,11 +3,13 @@ console.log('Js go!')
 // import { Produto } from './produto_v2'
 // import { Produto } from './Produto.js'
 import { ListaProduto } from './ListaProduto.js'
+import { StorageProduto } from './StorageProduto.js'
 // let produto = new Produto()
 let listaProduto = new ListaProduto(document.querySelector('form'))
+let storageProduto = new StorageProduto(document.querySelector('form'))
 
 
-
+// console.log(JSON.parse(localStorage.getItem('cadastro')))
 
 // AULA 3.1.11 – Imprimindo resultados – parte 1
 
@@ -16,16 +18,22 @@ document.querySelector('.alerta i').addEventListener('click', ()=>{
     document.querySelector('.alerta').classList.add('d-none')
 })
 
+storageProduto.getStorage(document.querySelector('.boxListagem__info'))
 document.querySelector('form').addEventListener('submit', (e)=>{
     e.preventDefault()
 
-
-        listaProduto.criarListagem(
+        console.log(storageProduto.setStorage(
             document.querySelector('#produto').value,
-            document.querySelector('#valor_produto').value,
-            document.querySelector('.boxListagem__info'),
-            document.querySelector('.alerta')
+            document.querySelector('#valor_produto').value)
         )
+
+
+        // listaProduto.criarListagem(
+        //     document.querySelector('#produto').value,
+        //     document.querySelector('#valor_produto').value,
+        //     document.querySelector('.boxListagem__info'),
+        //     document.querySelector('.alerta')
+        // )
 })
 
 
