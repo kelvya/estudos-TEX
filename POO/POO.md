@@ -30,7 +30,7 @@
 
 [3.1.15 – Inserindo dados em localStorage](/POO/markdown/aula-3.1.15.md)
 
-[3.1.16 – Cadastrando produtos localmente]()
+[3.1.16 – Cadastrando produtos localmente](/POO/markdown/aula-3.1.16.md)
 
 [3.1.17 – Removendo itens da interface de forma assíncrona]()
 

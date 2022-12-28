@@ -6,6 +6,7 @@ export class Produto{
     nome
     valor
     validacao
+    local
     constructor(id){
         !id ? this.id = 0 : this.id = id
     }
@@ -13,8 +14,14 @@ export class Produto{
         this.nome = inputNome
         this.valor = inputValor
         this.lerProduto()
+
         this.validacao = this.validarCampos(inputNome, inputValor)
-        this.validacao ? this.id++ : null
+        if(localStorage.getItem('cadastro')){
+            this.local = JSON.parse(localStorage.getItem('cadastro'))
+            this.id = this.local[this.local.length -1]['id'] + 1
+        }else{
+            this.validacao ? this.id++ : null
+        }
         return this.lerProduto()
     }
     lerProduto(){

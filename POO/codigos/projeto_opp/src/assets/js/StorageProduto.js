@@ -9,13 +9,27 @@ export class StorageProduto extends ListaProduto{
         super()
         this.form = form
     }
-    setStorage(inputNome, inputValor, box){
-        this.storage.push(this.salvar(inputNome, inputValor))
+    setStorage(inputNome, inputValor, box, div){
+        if(localStorage.getItem('cadastro')){
+            this.storage = JSON.parse(localStorage.getItem('cadastro'))
+            this.storage.push(this.salvar(inputNome, inputValor))
+            localStorage.setItem('cadastro', JSON.stringify(this.storage))
+        }else{
+            this.storage.push(this.salvar(inputNome, inputValor))
+            
+        }
         localStorage.setItem('cadastro', JSON.stringify(this.storage))
-        // this.ListarItens(this.storage, box)
-        return this.storage
+        
+        console.log(this.storage)
+        // Limpar a lista anterior
+        const divBox = document.getElementsByClassName(div)
+        while(divBox.length <0){
+            divBox[0].remove()
+        }
+        this.ListarItens(this.storage, box)
     }
     getStorage(box){
-        this.ListarItens(JSON.parse(localStorage.getItem('cadastro')), box)
+        localStorage.getItem('cadastro') ?
+        this.ListarItens(JSON.parse(localStorage.getItem('cadastro')), box) : null
     }
 }

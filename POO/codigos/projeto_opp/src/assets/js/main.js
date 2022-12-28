@@ -19,12 +19,17 @@ document.querySelector('.alerta i').addEventListener('click', ()=>{
 })
 
 storageProduto.getStorage(document.querySelector('.boxListagem__info'))
+
 document.querySelector('form').addEventListener('submit', (e)=>{
     e.preventDefault()
 
-        console.log(storageProduto.setStorage(
-            document.querySelector('#produto').value,
-            document.querySelector('#valor_produto').value)
+        console.log(
+            storageProduto.setStorage(
+                document.querySelector('#produto').value,
+                document.querySelector('#valor_produto').value,
+                document.querySelector('.boxListagem__info'),
+                'boxListagem_item'
+            )
         )
 
 

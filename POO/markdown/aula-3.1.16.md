@@ -1,4 +1,4 @@
-# 3.1.15 – Inserindo dados em localStorage
+# 3.1.16 – Cadastrando produtos localmente
 
 ## Arquivo usado em aula:
 
@@ -6,6 +6,6 @@
 
 [main.js](/POO/codigos/projeto_opp/src/assets/js/Main.js)
 
-[StorageProduto.js](/POO/codigos/projeto_opp/src/assets/js/StorageProduto.js)
+[produto.js](/POO/codigos/projeto_opp/src/assets/js/Produto.js)
 
 [ListaProduto.js](/POO/codigos/projeto_opp/src/assets/js/ListaProduto.js)
