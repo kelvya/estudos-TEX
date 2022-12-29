@@ -38,6 +38,6 @@
 
 [3.1.19 – Criando métodos de edição de Produtos](/POO/markdown/aula-3.1.19.md)
 
-[3.1.20 – Atualizando dados persistentes em localStorage]()
+[3.1.20 – Atualizando dados persistentes em localStorage](/POO/markdown/aula-3.1.20.md)
 
 [3.1.21 – Finalizando o Cadastramento de Produtos]()
