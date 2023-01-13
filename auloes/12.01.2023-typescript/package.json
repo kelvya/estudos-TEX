@@ -1,0 +1,11 @@
+{
+  "name": "12.01.2023-typescript",
+  "version": "1.0.0",
+  "description": "Aulão da Tex de TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"console.log('Hello TypeScript')\" > index.ts"
+  },
+  "author": "Kelvya Thais",
+  "license": "ISC"
+}
