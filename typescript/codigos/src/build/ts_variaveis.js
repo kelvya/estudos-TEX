@@ -1,7 +1,7 @@
 "use strict";
 var produto = 'Geladeira';
 // console.log(agenda);// ERRO tentar acessar antes de declarar
-// console.log(eletronico); //Aqui oK, no JavaScript retorna undefined
+// console.log(eletronico); // ERRO tentar acessar antes de declarar
 var eletronico = 'Televisor';
 let agenda = 'Reunião Devs';
 let compromisso;
