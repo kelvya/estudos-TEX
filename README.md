@@ -27,16 +27,18 @@ Repositório criado para organizar as anotações e estudos das aulas da T.EX e 
 
 [2.6 – Javascript](/js/js.md)
 
-[2.7 – JQuery](https://github.com/kelvya/estudos-TEX/blob/main/jquery/jquery.md)
+[2.7 – JQuery](/jquery/jquery.md)
 
-[2.8 – Vue](https://github.com/kelvya/estudos-TEX/blob/main/vue/vue.md)
+[2.8 – Vue](/vue/vue.md)
 
-[2.9 – React](https://github.com/kelvya/estudos-TEX/blob/main/react/react.md)
+[2.9 – React](/react/react.md)
 
 ## MÓDULO 3 - BACK-END
-[POO (Programação Orientada a Objetos)](https://github.com/kelvya/estudos-TEX/blob/main/POO/POO.md)
+[POO (Programação Orientada a Objetos)](/POO/POO.md)
 
 [TypeScript](/typescript/typescript.md)
+
+[MySQL](/mysql/mysql.md)
 
 
 
