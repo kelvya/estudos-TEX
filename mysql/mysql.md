@@ -6,7 +6,9 @@
 
 [3.5.3 – Modelo Entidade Relacionamento](/mysql/markdown/aula-3.5.3.md)
 
-[](/mysql/markdown/aula-3.5.4.md)
+[3.5.4 – Tipos de Relacionamento](/mysql/markdown/aula-3.5.4.md)
+
+[](/mysql/markdown/aula-3.5.5.md)
 
 
 
