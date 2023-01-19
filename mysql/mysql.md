@@ -10,7 +10,9 @@
 
 [3.5.5 – Criando um Diagrama de Classes](/mysql/markdown/aula-3.5.5.md)
 
-[](/mysql/markdown/aula-3.5.6.md)
+[3.5.7 – Conceitos sobre tabelas em MySQL](/mysql/markdown/aula-3.5.6.md)
+
+[](/mysql/markdown/aula-3.5.7.md)
 
 
 
