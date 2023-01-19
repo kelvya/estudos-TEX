@@ -41,7 +41,26 @@ Para sair do mysql:
 
 ```quit```
 
-## MySQL Workbench
+## Instalação no Windows:
+
+
+
+Para acessar o MySQL no terminal do windows:
+
+- acessar o prompt de comando
+- usar o comando ```c ..``` até chegar a raiz
+- acessar os arquivos de programa com ```cd Program Files```
+- acessar o MySQL com ```cd MySQL```
+- acessar o servidor com ```cd MySQL Server 8.0```
+- depois ```cd bin```
+- e finalmente: ```mysql -h localhost -u root -p```
+- agora digitar a senha do seu root do MySQL
+
+se der certo aparecerá no prompt que vc está no MySQL assim:
+```mysql>```
+
+
+### MySQL Workbench
 
 Para instalar:
 
