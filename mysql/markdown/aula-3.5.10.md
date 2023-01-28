@@ -84,13 +84,6 @@ CREATE TABLE Livro (
 DROP TABLE empregados;
 ```
 
-- ALTER
-- altera as propriedades de um objeto
-- utilizado para adicionar ou remover uma coluna para uma tabela existente
-```
-ALTER TABLE Livro ADD categoria VARCHAR(50);
-ALTER TABLE Livro DROP COLUMN editora;
-```
 
 - TRUNCATE
 - esvazia imediatamente todo o conteúdo de uma tabela ou objeto que contenha dados
