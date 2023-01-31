@@ -2,10 +2,26 @@
 
 SQL (Structured Query language - Linguagem de Pesquisa Estruturada)
 
+- Vantagens:
+  - aprendizado
+  - portabilidade
+  - longevidade
+  - comunicação
+  - liberdade de escolha
+
+- Desvantagens:
+  - falta de criatividade
+  - falta de estruturação
+
+- Comandos (padrão ANSI):
+  - DDL
+  - DML
+  - DCL
+
 ## Banco de Dados
 
 - base de dados
-- coleção de aequivos
+- coleção de arquivos
 - coleção de informações (dados) relacionadas entre sí
 
 ## Registros gravados em um Banco de Dados
