@@ -16,7 +16,28 @@
 
 [3.5.8 – Criando uma base de dados no MySQL WorkBench](/mysql/markdown/aula-3.5.8.md)
 
-[](/mysql/markdown/aula-3.5.9.md)
+[3.5.9 – Inserir dados e configurar tabelas com MySQL WorkBench](/mysql/markdown/aula-3.5.9.md)
 
+[3.5.10 – Conceitos da linguagem SQL](/mysql/markdown/aula-3.5.10.md)
 
+[3.5.11 – Criando uma base de dados via cliente mySQL](/mysql/markdown/aula-3.5.11.md)
 
+[3.5.12 – Comando Alter Table](/mysql/markdown/aula-3.5.12.md)
+
+[3.5.13 – Inner Join](/mysql/markdown/aula-3.5.13.md)
+
+[3.5.14 – Left Join e Right Join](/mysql/markdown/aula-3.5.14.md)
+
+[3.5.15 – Count e Average](/mysql/markdown/aula-3.5.15.md)
+
+[3.5.16 – Criando a estrutura do banco de dados do Projeto Restaurante](/mysql/markdown/aula-3.5.16.md)
+
+[3.5.17 – Criando o Diagrama de Classes do Projeto](/mysql/markdown/aula-3.5.17.md)
+
+[3.5.18 – Definindo chaves primárias e estrangeiras](/mysql/markdown/aula-3.5.18.md)
+
+[3.5.19 – Relacionando as entidades](/mysql/markdown/aula-3.5.19.md)
+
+[3.5.20 – Carregando os primeiros dados nas tabelas do Projeto](/mysql/markdown/aula-3.5.20.md)
+
+[](/mysql/markdown/aula-3.5.21.md)
