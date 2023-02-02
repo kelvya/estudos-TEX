@@ -12,7 +12,7 @@
 
 [3.6.6 – Características e vantagens do MongoDB – parte 2](/mongoDB/markdown/aula-3.6.6.md)
 
-[]()
+[3.6.7 – Gravando dados em documentos](/mongoDB/markdown/aula-3.6.7.md)
 
 []()
 
