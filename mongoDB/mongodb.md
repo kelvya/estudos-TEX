@@ -8,7 +8,7 @@
 
 [3.6.4 – Protegendo o banco de dados MongoDB](/mongoDB/markdown/aula-3.6.4.md)
 
-[]()
+[3.6.5 – Características e vantagens do MongoDB – parte 1](/mongoDB/markdown/aula-3.6.5.md)
 
 []()
 
