@@ -29,6 +29,10 @@
   - documentos na mesma coleção nãoprecisam ter o mesmo conjunto de campos
   - documentos na mesma coleção nãoprecisam ter a mesma estrutura
   - campos comuns em documentos de uma coleção podem conter diferentes tipos de dados
+  - Rrestrições ao se criar um documento:
+    - O nome do campo ```_id``` é reservado para uso como chave primária. Seu valor deve ser único na coleção, é imutável e pode ser de qualquer tipo que não seja um array.
+    - Os nomes dos campos não podem conter o caractere NULL.
+    - O tamanho máximo de um documento BSON é 16 megabytes.
 
 Comparando RDBMS com MongoDB:
 

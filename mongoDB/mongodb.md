@@ -10,7 +10,7 @@
 
 [3.6.5 – Características e vantagens do MongoDB – parte 1](/mongoDB/markdown/aula-3.6.5.md)
 
-[]()
+[3.6.6 – Características e vantagens do MongoDB – parte 2](/mongoDB/markdown/aula-3.6.6.md)
 
 []()
 
