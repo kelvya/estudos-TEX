@@ -20,7 +20,7 @@
 
 [3.6.10 – Instalando o Compass MongoDB](/mongoDB/markdown/aula-3.6.10.md)
 
-[]()
+[3.6.11 – Criando consultas no Compass vs cliente MongoDB](/mongoDB/markdown/aula-3.6.11.md)
 
 []()
 
