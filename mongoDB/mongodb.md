@@ -22,7 +22,7 @@
 
 [3.6.11 – Criando consultas no Compass vs cliente MongoDB](/mongoDB/markdown/aula-3.6.11.md)
 
-[]()
+[3.6.12 – Criando projeções](/mongoDB/markdown/aula-3.6.12.md)
 
 []()
 
