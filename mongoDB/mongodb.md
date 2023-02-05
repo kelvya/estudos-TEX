@@ -16,7 +16,7 @@
 
 [3.6.8 – Atualizando dados](/mongoDB/markdown/aula-3.6.8.md)
 
-[]()
+[3.6.9 – Excluindo dados](/mongoDB/markdown/aula-3.6.9.md)
 
 []()
 
