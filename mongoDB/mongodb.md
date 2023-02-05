@@ -18,7 +18,7 @@
 
 [3.6.9 – Excluindo dados](/mongoDB/markdown/aula-3.6.9.md)
 
-[]()
+[3.6.10 – Instalando o Compass MongoDB](/mongoDB/markdown/aula-3.6.10.md)
 
 []()
 
