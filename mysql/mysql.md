@@ -42,4 +42,6 @@
 
 [3.5.21 – Restrições do tipo ForeignKey](/mysql/markdown/aula-3.5.21.md)
 
-[](/mysql/markdown/aula-3.5.22.md)
+[3.5.22 – Criando índices](/mysql/markdown/aula-3.5.22.md)
+
+[](/mysql/markdown/aula-3.5.23.md)
