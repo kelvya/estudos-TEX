@@ -26,6 +26,6 @@
 
 [3.6.13 – Criando índices](/mongoDB/markdown/aula-3.6.13.md)
 
-[]()
+[3.6.14 – Replicação e Fragmentação](/mongoDB/markdown/aula-3.6.14.md)
 
 []()
