@@ -40,4 +40,6 @@
 
 [3.5.20 – Carregando os primeiros dados nas tabelas do Projeto](/mysql/markdown/aula-3.5.20.md)
 
-[](/mysql/markdown/aula-3.5.21.md)
+[3.5.21 – Restrições do tipo ForeignKey](/mysql/markdown/aula-3.5.21.md)
+
+[](/mysql/markdown/aula-3.5.22.md)
