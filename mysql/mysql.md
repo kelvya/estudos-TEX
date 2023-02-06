@@ -46,4 +46,6 @@
 
 [3.5.23 – Restrições do tipo Check](/mysql/markdown/aula-3.5.23.md)
 
-[](/mysql/markdown/aula-3.5.24.md)
+[3.5.24 – Criando Views](/mysql/markdown/aula-3.5.24.md)
+
+
