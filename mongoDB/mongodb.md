@@ -24,7 +24,7 @@
 
 [3.6.12 – Criando projeções](/mongoDB/markdown/aula-3.6.12.md)
 
-[]()
+[3.6.13 – Criando índices](/mongoDB/markdown/aula-3.6.13.md)
 
 []()
 
