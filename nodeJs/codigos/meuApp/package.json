@@ -1,0 +1,26 @@
+{
+  "name": "meuapp",
+  "version": "1.0.0",
+  "description": "meu primeiro app nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvya/estudos-TEX.git"
+  },
+  "keywords": [
+    "javascript",
+    "node"
+  ],
+  "author": "Kelvya Thais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvya/estudos-TEX/issues"
+  },
+  "homepage": "https://github.com/kelvya/estudos-TEX#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
