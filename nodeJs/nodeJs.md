@@ -8,5 +8,7 @@
 
 [3.8.4 – Renderizando arquivos HTML](/nodeJs/markdown/aula-1.8.4.md)
 
-[](/nodeJs/markdown/aula-1.8.4.md)
+[3.8.5 – Módulos](/nodeJs/markdown/aula-1.8.5.md)
+
+[](/nodeJs/markdown/aula-1.8.6.md)
 
