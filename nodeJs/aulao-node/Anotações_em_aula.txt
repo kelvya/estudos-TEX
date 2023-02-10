@@ -1,0 +1,13 @@
+nvm
+pesquisar o gerenciador de versões do node
+
+
+
+Pode ser que no meio do caminho dê erro porque tem um processo que não foi encerrado e teremos que encerrar oprocesso manualmente
+Comandos:
+ps -ef (todos os pid em processo)
+ps -ef | grep node
+
+schedule do node (agendador de tarefas)
+Se quero que as 19:30hs um job seja executado
+npm install node-schedule
