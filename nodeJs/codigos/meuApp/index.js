@@ -8,8 +8,9 @@ const app = express()
 
 
 app.get("/", (req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})
-    res.end("Iniciando meu primeiro app em Node.js com Express :)");
+    // res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})
+    // res.end("Iniciando meu primeiro app em Node.js com Express :)");
+    res.sendFile(`${__dirname}/docs/index.html`)
 });
 
 app.get("/sobre", (req, res) => {
