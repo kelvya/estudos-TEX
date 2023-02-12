@@ -15,6 +15,9 @@ async function selectCategorias(){
     const connect = await connecta()
     const [rows] = await connect.query('SELECT * FROM produto_categoria;')
     console.log(rows)
+    return rows
 }
+
+module.exports = { selectCategorias }
 
 selectCategorias()
