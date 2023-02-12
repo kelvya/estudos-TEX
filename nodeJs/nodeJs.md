@@ -14,7 +14,9 @@
 
 [3.8.7 – Servidor de Arquivos](/nodeJs/markdown/aula-3.8.7.md)
 
-[](/nodeJs/markdown/aula-3.8.8.md)
+[3.8.8 – Executando consultas no banco de dados](/nodeJs/markdown/aula-3.8.8.md)
+
+[](/nodeJs/markdown/aula-3.8.9.md)
 
 
 

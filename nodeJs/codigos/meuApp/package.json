@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "meu primeiro app nodejs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/kelvya/estudos-TEX#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.2"
   }
 }
