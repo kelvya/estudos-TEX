@@ -16,7 +16,10 @@
 
 [3.8.8 – Executando consultas no banco de dados](/nodeJs/markdown/aula-3.8.8.md)
 
-[](/nodeJs/markdown/aula-3.8.9.md)
+[3.8.9 – Criando um API](/nodeJs/markdown/aula-3.8.9.md)
 
+[3.8.10 – Consultando dados parametrizados](/nodeJs/markdown/aula-3.8.10.md)
+
+[](/nodeJs/markdown/aula-3.8.11.md)
 
 

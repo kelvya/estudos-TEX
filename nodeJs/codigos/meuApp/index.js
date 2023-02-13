@@ -26,9 +26,14 @@ app.get("/contato", (req, res) => {
   res.end("Entre em contato conosco");
 });
 
-app.get("/categorias  ", (req, res) => {
+app.get("/categorias", (req, res) => {
   res.writeHead(200, { "Content-Type": "text/json;charset=utf-8" });
   res.end(getCategorias);
+});
+
+app.get("/categorias:id", (req, res) => {
+  res.writeHead(200, { "Content-Type": "text/json;charset=utf-8" });
+  res.end(await categorias.selectCategoriasView(req.params.id));
 });
 
 app.listen(3000, ()=>{

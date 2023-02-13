@@ -13,11 +13,18 @@ async function connecta() {
 
 async function selectCategorias() {
   const connect = await connecta();
-  const [rows] = await connect.query("SELECT * FROM produto_categoria;");
+  const [rows] = await connect.query('SELECT * FROM selectCategorias;');
   console.log(rows);
   return JSON.stringify(rows);
 }
 
-module.exports = { selectCategorias };
+async function selectCategoriasView(id) {
+  const connect = await connecta();
+  const [rows] = await connect.query(`SELECT * FROM selectCategorias WHERE id_categoria_tipo = ${id};`);
+  console.log(rows);
+  return JSON.stringify(rows);
+}
+
+module.exports = { selectCategorias, selectCategoriasView };
 
 selectCategorias();
