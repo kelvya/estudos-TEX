@@ -3,8 +3,8 @@
 // const conn = mysql.createConnection({
 //     host:'localhost',
 //     user: 'root',
-//     password: 'Lua@0981',
-//     database: 'db_hotel'
+//     password: '*******',
+//     database: '******'
 // })
 
 // //Consulta...
@@ -37,8 +37,8 @@ app.listen(porta, ()=>{
 const conn = mysql.createConnection({
     host:'localhost',
     user: 'root',
-    password: 'Lua@0981',
-    database: 'db_hotel'
+    password: '******',
+    database: '******'
 })
 
 //Consulta...
