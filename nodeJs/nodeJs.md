@@ -28,6 +28,8 @@
 
 [3.8.14 – Roteamento e EndPoints](/nodeJs/markdown/aula-3.8.14.md)
 
-[](/nodeJs/markdown/aula-3.8.15.md)
+[3.8.15 – Manipuladores de Rota](/nodeJs/markdown/aula-3.8.15.md)
+
+[3.8.16 – Express Router](/nodeJs/markdown/aula-3.8.16.md)
 
 
