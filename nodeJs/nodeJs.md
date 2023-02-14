@@ -32,4 +32,8 @@
 
 [3.8.16 – Express Router](/nodeJs/markdown/aula-3.8.16.md)
 
+[3.8.17 – Tratando arquivos estáticos com Express](/nodeJs/markdown/aula-3.8.17.md)
+
+[](/nodeJs/markdown/aula-3.8.18.md)
+
 
