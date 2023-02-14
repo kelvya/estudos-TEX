@@ -20,6 +20,10 @@
 
 [3.8.10 – Consultando dados parametrizados](/nodeJs/markdown/aula-3.8.10.md)
 
-[](/nodeJs/markdown/aula-3.8.11.md)
+[3.8.11 – Enviando uma requisiçao POST](/nodeJs/markdown/aula-3.8.11.md)
+
+[3.8.12 – Atualizando registros do banco de dados](/nodeJs/markdown/aula-3.8.12.md)
+
+[](/nodeJs/markdown/aula-3.8.13.md)
 
 
