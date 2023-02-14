@@ -71,8 +71,4 @@ app.all('/area-do-colaborador', function (req, res, next) {
   - uma função
   - uma matriz de funções
   - combinações de ambas
-
-
-## Códigos usados em aula:
-
-[meuApp](/nodeJs/codigos/meuApp/)
+  - 
