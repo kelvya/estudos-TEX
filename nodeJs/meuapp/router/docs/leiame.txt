@@ -1,0 +1,5 @@
+Exemplo de leitura de arquivos estáticos
+
+Usando express.static
+
+Lorem Ipsum Dolor

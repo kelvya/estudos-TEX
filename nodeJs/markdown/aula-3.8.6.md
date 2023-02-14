@@ -8,7 +8,6 @@
 - Quatro operações básicas que um sistema deve ser capaz de executar
 - Paradigma usado na construção de aplicativos da WEB
 
-
 ## Códigos usados em aula:
 
-[meuApp](/nodeJs/codigos/mysql/)
+[meuApp](camminho)

@@ -69,10 +69,6 @@
 - Alternativamente crie um arquivo JavaScript e depois compile em node
 - O servidor Web é acessado pela url local http://localhost:8080
   
-### Arquivos usados em aula:
+## Códigos usados em aula:
 
-[teste_server.js](/nodeJs/codigos/teste_server.js)
-
-[function.js](/nodeJs/codigos/function.js)
-
-
+[meuApp](camminho)

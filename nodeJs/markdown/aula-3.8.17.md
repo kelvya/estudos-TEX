@@ -43,10 +43,3 @@ const path = require('path')
 app.use('/arquivos', express.static(path.join(__dirname, 'public')))
 ```
 
-
-
-
-
-## Códigos usados em aula:
-
-[meuApp](/nodeJs/codigos/meuApp/)

@@ -2,8 +2,4 @@
 
 ## Códigos usados em aula:
 
-[meuApp](/nodeJs/codigos/meuApp/)
-
-
-
-Começar do início da aula
+[meuApp](camminho)

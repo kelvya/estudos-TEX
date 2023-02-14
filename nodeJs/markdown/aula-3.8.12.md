@@ -3,4 +3,4 @@
 
 ## Códigos usados em aula:
 
-[meuApp](/nodeJs/codigos/meuApp/)
+[meuApp](camminho)

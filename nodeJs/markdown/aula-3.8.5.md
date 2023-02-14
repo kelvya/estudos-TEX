@@ -14,7 +14,6 @@
 - Para converter uma função em um módulo:
   - associr a função a uma variável dentro do seu arquivo JavaScript
 
-
 ## Códigos usados em aula:
 
-[meuApp](/nodeJs/codigos/meuApp)
+[meuApp](camminho)

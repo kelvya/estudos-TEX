@@ -12,7 +12,6 @@
   - retorna o caminho da pasta onde reside o arquivo JavScript atual
   - usado para obter o nome do diretório do arquivo atualmente em execução
 
-
 ## Códigos usados em aula:
 
-[meuApp](/nodeJs/codigos/meuApp)
+[meuApp](camminho)
