@@ -2,6 +2,7 @@
 async function connecta(){
     const mysql = require('mysql2/promise')
     const conn = await mysql.createConnection({
+        // usuário deletado do SGBD
         host: 'localhost',
         user: 'kelvya',
         password: 'umdoistres***321.DB',

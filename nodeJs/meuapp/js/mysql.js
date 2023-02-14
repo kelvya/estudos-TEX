@@ -1,5 +1,6 @@
 const mysql = require('mysql')
 var conn = mysql.createConnection({
+    // usuário deletado do SGBD
     host: 'localhost',
     user: 'kelvya',
     password: 'umdoistres***321.DB'
