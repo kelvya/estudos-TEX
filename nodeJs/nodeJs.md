@@ -24,6 +24,8 @@
 
 [3.8.12 – Atualizando registros do banco de dados](/nodeJs/markdown/aula-3.8.12.md)
 
-[](/nodeJs/markdown/aula-3.8.13.md)
+[3.8.13 – Conceitos sobre CRUD](/nodeJs/markdown/aula-3.8.13.md)
+
+[](/nodeJs/markdown/aula-3.8.14.md)
 
 
