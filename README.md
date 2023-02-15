@@ -40,5 +40,9 @@ Repositório criado para organizar as anotações e estudos das aulas da T.EX e 
 
 [MySQL](/mysql/mysql.md)
 
+[Node.js](/nodeJs/nodeJs.md)
+
+
+
 
 
